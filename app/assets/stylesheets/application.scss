@@ -1,0 +1,31 @@
+/*
+ * This is a manifest file that'll be compiled into application.css, which will include all the files
+ * listed below.
+ *
+ * Any CSS and SCSS file within this directory, lib/assets/stylesheets, vendor/assets/stylesheets,
+ * or any plugin's vendor/assets/stylesheets directory can be referenced here using a relative path.
+ *
+ * You're free to add application-wide styles to this file and they'll appear at the bottom of the
+ * compiled file so the styles you add here take precedence over styles defined in any styles
+ * defined in the other CSS/SCSS files in this directory. It is generally better to create a new
+ * file per style scope.
+
+ *= require  bootstrap.css
+ *= require  font-awesome.css
+ *= require  icon-line-pro/style.css
+ *= require  icon-hs/style.css
+ *= require  hamburgers.css
+ *= require  dzsparallaxer/dzsparallaxer.css
+ *= require  dzsparallaxer/dzsscroller/scroller.css
+ *= require  dzsparallaxer/advancedscroller/plugin.css
+ *= require  slick.css
+ *= require  cubeportfolio.css
+ *= require  jquery.fancybox.css
+ *= require  styles.op-consulting.css
+ *= require  revolution-slider/revolution/fonts/pe-icon-7-stroke/css/pe-icon-7-stroke.css
+ *= require  revolution-slider/revolution/css/settings.css
+ *= require  revolution-slider/revolution/css/layers.css
+ *= require  revolution-slider/revolution/css/navigation.css
+ *= require  revolution-slider/revolution-addons/typewriter/css/typewriter.css
+ *= require  custom.css
+ */
