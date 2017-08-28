@@ -1,9 +1,13 @@
 Rails.application.routes.draw do
+  #get 'send/index'
+
   # The priority is based upon order of creation: first created -> highest priority.
   # See how all your routes lay out with "rake routes".
 
   # You can have the root of your site routed with "root"
   root 'pages#home'
+  get 'send' => 'send#index'
+  post 'send' => 'send#create'
   get '*unmatched_route', :to => 'application#render_404'
 
   # Example of regular route:

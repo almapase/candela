@@ -19,3 +19,6 @@
 /.DS_Store
 .keep
 .DS_Store
+
+# Ignore Secret file.
+config/secrets.yml
