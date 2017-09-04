@@ -1,0 +1,175 @@
+<!-- Candela Gallery Secction -->
+<div id="portfolio-section" class="container g-py-100">
+  <!-- Heading -->
+  <div class="g-max-width-550 text-center mx-auto g-mb-70">
+    <h2 class="text-uppercase g-color-main-light-v1 g-font-weight-600 g-font-size-13 g-letter-spacing-2 mb-4">Hemos hecho algunos trabajos asombrosos</h2>
+    <h2 class="h3 mb-5">Experiencia y calidad a tú servicio.</h2>
+  </div>
+  <!-- End Heading -->
+  <!-- Gallery Content -->
+  <div class="row">
+    <!-- Book -->
+    <div class="col-md-6 col-lg-4 g-mb-30">
+      <!-- Article -->
+      <article class="u-block-hover u-bg-overlay g-color-white g-bg-black-opacity-0_3--after text-center g-rounded-3">
+        <!-- Article Image -->
+        <img class="w-100 u-block-hover__main--zoom-v1" src="<%= image_url "porfolio/candela-book_1.jpg" %>" alt="Book de Candela Show Woman">
+        <!-- End Article Image -->
+
+        <!-- Article Content -->
+        <div class="u-block-hover__additional g-flex-middle g-z-index-2 g-brd-around g-brd-2 g-brd-white-opacity-0_3 g-pa-15 g-ma-20">
+          <div class="g-flex-middle-item">
+            <span class="d-block g-font-weight-600 g-font-size-40 text-uppercase g-mb-20">
+              Book
+            </span>
+            <h3 class="h4 d-inline-block g-color-white">Podrás ver mi última sesión fotográfica</h3>
+            <a class="js-fancybox btn btn-md u-btn-primary g-font-weight-600 g-font-size-12 text-uppercase" href="<%= image_url "porfolio/candela-book_1.jpg" %>" data-fancybox-gallery="lightbox-gallery-01-1">Ver Galería</a>
+          </div>
+        </div>
+        <!-- End Article Content -->
+      </article>
+      <!-- End Article -->
+      <% for i in 2..10 %>
+        <img class="hidden-xs-up" src="<%= image_url "porfolio/candela-book_#{i}.jpg" %>" alt="Book de Candela Show Woman" data-fancybox-gallery="lightbox-gallery-01-1">
+      <% end %>
+    </div>
+    <!-- End Book -->
+
+    <!-- Show en vivo -->
+    <div class="col-md-6 col-lg-4 g-mb-30">
+      <!-- Article -->
+      <article class="u-block-hover u-bg-overlay g-color-white g-bg-black-opacity-0_3--after text-center g-rounded-3">
+        <!-- Article Image -->
+        <img class="w-100 u-block-hover__main--zoom-v1" src="<%= image_url "porfolio/Candela-showvivo_0.jpg" %>" alt="Candela Show Woman en Vivo">
+        <!-- End Article Image -->
+
+        <!-- Article Content -->
+        <div class="u-block-hover__additional g-flex-middle g-z-index-2 g-brd-around g-brd-2 g-brd-white-opacity-0_3 g-pa-15 g-ma-20">
+          <div class="g-flex-middle-item">
+            <span class="d-block g-font-weight-600 g-font-size-40 text-uppercase g-mb-20">
+              Show en vivo
+            </span>
+            <h3 class="h4 d-inline-block g-color-white">Algunas fotos de mis shows en vivo</h3>
+            <a class="js-fancybox btn btn-md u-btn-primary g-font-weight-600 g-font-size-12 text-uppercase" href="<%= image_url "porfolio/Candela-showvivo_1.jpg" %>" data-fancybox-gallery="lightbox-gallery-01-2">Ver Galería</a>
+          </div>
+        </div>
+        <!-- End Article Content -->
+      </article>
+      <!-- End Article -->
+      <% for i in 2..11 %>
+        <img class="hidden-xs-up" src="<%= image_url "porfolio/Candela-showvivo_#{i}.jpg" %>" alt="Candela Show Woman en Vivo" data-fancybox-gallery="lightbox-gallery-01-2">
+      <% end %>
+    </div>
+    <!-- End Show en vivo -->
+
+    <!-- TV -->
+    <div class="col-md-6 col-lg-4 g-mb-30">
+      <!-- Article -->
+      <article class="u-block-hover u-bg-overlay g-color-white g-bg-black-opacity-0_3--after text-center g-rounded-3">
+        <!-- Article Image -->
+        <img class="w-100 u-block-hover__main--zoom-v1" src="<%= image_url "porfolio/Candela-tv-Agenda-Fox-2017_0.jpg" %>" alt="Candela Show Woman en Agenda FOX Sports Chile">
+        <!-- End Article Image -->
+
+        <!-- Article Content -->
+        <div class="u-block-hover__additional g-flex-middle g-z-index-2 g-brd-around g-brd-2 g-brd-white-opacity-0_3 g-pa-15 g-ma-20">
+          <div class="g-flex-middle-item">
+            <span class="d-block g-font-weight-600 g-font-size-40 text-uppercase g-mb-20">
+              Televisión
+            </span>
+            <h3 class="h4 d-inline-block g-color-white">Algunas de mis apariciones en televisión</h3>
+            <a class="js-fancybox btn btn-md u-btn-primary g-font-weight-600 g-font-size-12 text-uppercase" href="<%= image_url "porfolio/Candela-tv-Agenda-Fox-2017_01.jpg" %>" data-fancybox-gallery="lightbox-gallery-01-3">Ver Galería</a>
+          </div>
+        </div>
+        <!-- End Article Content -->
+      </article>
+      <!-- End Article -->
+      <% for i in 2..6 %>
+        <img class="hidden-xs-up" src="<%= image_url "porfolio/Candela-tv-Agenda-Fox-2017_0#{i}.jpg" %>" alt="Candela Show Woman en Agenda FOX Sports Chile" data-fancybox-gallery="lightbox-gallery-01-3">
+      <% end %>
+      <% for i in 1..4 %>
+        <img class="hidden-xs-up" src="<%= image_url "porfolio/Candela-tv-Programa al Ritmo-de-Kiara-Peru_0#{i}.jpg" %>" alt="Candela Show Woman en Al Ritmo de Kiara Peru" data-fancybox-gallery="lightbox-gallery-01-3">
+      <% end %>
+    </div>
+    <!-- End TV -->
+
+    <!-- Prensa -->
+    <div class="col-md-6 col-lg-4 g-mb-30">
+      <!-- Article -->
+      <article class="u-block-hover u-bg-overlay g-color-white g-bg-black-opacity-0_3--after text-center g-rounded-3">
+        <!-- Article Image -->
+        <img class="w-100 u-block-hover__main--zoom-v1" src="<%= image_url "porfolio/Candela-prensa.jpg" %>" alt="Candela en la prensa">
+        <!-- End Article Image -->
+
+        <!-- Article Content -->
+        <div class="u-block-hover__additional g-flex-middle g-z-index-2 g-brd-around g-brd-2 g-brd-white-opacity-0_3 g-pa-15 g-ma-20">
+          <div class="g-flex-middle-item">
+            <span class="d-block g-font-weight-600 g-font-size-40 text-uppercase g-mb-20">
+              Prensa
+            </span>
+            <h3 class="h4 d-inline-block g-color-white">La prensa destacando mi trabajo</h3>
+            <a class="js-fancybox btn btn-md u-btn-primary g-font-weight-600 g-font-size-12 text-uppercase" href="<%= image_url "porfolio/Candela-prensa-01.jpg" %>" data-fancybox-gallery="lightbox-gallery-01-4">Ver Galería</a>
+          </div>
+        </div>
+        <!-- End Article Content -->
+      </article>
+      <!-- End Article -->
+      <% for i in 2..7 %>
+        <img class="hidden-xs-up" src="<%= image_url "porfolio/Candela-prensa-0#{i}.jpg" %>" alt="Candela Show Woman en la prensa" data-fancybox-gallery="lightbox-gallery-01-4">
+      <% end %>
+    </div>
+    <!-- End prensa -->
+
+    <!-- Videoteca -->
+    <div class="col-md-6 col-lg-4 g-mb-30">
+      <!-- Article -->
+      <article class="u-block-hover u-bg-overlay g-color-white g-bg-black-opacity-0_3--after text-center g-rounded-3">
+        <!-- Article Image -->
+        <img class="w-100 u-block-hover__main--zoom-v1" src="<%= image_url "porfolio/Candela-videoteca.jpg" %>" alt="Candela Show Woman">
+        <!-- End Article Image -->
+
+        <!-- Article Content -->
+        <div class="u-block-hover__additional g-flex-middle g-z-index-2 g-brd-around g-brd-2 g-brd-white-opacity-0_3 g-pa-15 g-ma-20">
+          <div class="g-flex-middle-item">
+            <span class="d-block g-font-weight-600 g-font-size-40 text-uppercase g-mb-20">Videoteca</span>
+            <h3 class="h4 d-inline-block  g-color-white">Aquí veras un compilado de mis actuaciones</h3>
+            <a class="js-fancybox-media btn btn-md u-btn-primary g-font-weight-600 g-font-size-12 text-uppercase" href="http://www.youtube.com/embed/Vf1ZW6VXFx0?autoplay=1" data-fancybox-hidden-gallery="lightbox-gallery-01-5">Ver Videos</a>
+          </div>
+        </div>
+        <!-- End Article Content -->
+      </article>
+      <!-- End Article -->
+
+      <iframe class="hidden-xs-up" src="http://www.youtube.com/embed/JBuqCvaFelo?autoplay=1" data-fancybox-hidden-gallery="lightbox-gallery-01-5" data-fancybox-type="iframe"></iframe>
+    </div>
+    <!-- End Videoteca -->
+
+    <!-- Video Clip -->
+    <div class="col-md-6 col-lg-4 g-mb-30">
+      <!-- Article -->
+      <article class="u-block-hover u-bg-overlay g-color-white g-bg-black-opacity-0_3--after text-center g-rounded-3">
+        <!-- Article Image -->
+        <img class="w-100 u-block-hover__main--zoom-v1" src="<%= image_url "porfolio/Candela-videoclip.jpg" %>" alt="Candela Show Woman video clip">
+        <!-- End Article Image -->
+
+        <!-- Article Content -->
+        <div class="u-block-hover__additional g-flex-middle g-z-index-2 g-brd-around g-brd-2 g-brd-white-opacity-0_3 g-pa-15 g-ma-20">
+          <div class="g-flex-middle-item">
+            <span class="d-block g-font-weight-600 g-font-size-40 text-uppercase g-mb-20">Video Clip</span>
+            <h3 class="h4 d-inline-block  g-color-white">También he participado en algunos video clips musicales</h3>
+            <a class="js-fancybox-media btn btn-md u-btn-primary g-font-weight-600 g-font-size-12 text-uppercase" href="http://www.youtube.com/embed/upiGIN5Na5U?autoplay=1" data-fancybox-hidden-gallery="lightbox-gallery-01-6">Ver Video Clips</a>
+          </div>
+        </div>
+        <!-- End Article Content -->
+      </article>
+      <!-- End Article -->
+
+      <iframe class="hidden-xs-up" src="http://www.youtube.com/embed/3kYYicoBFcM?autoplay=1" data-fancybox-hidden-gallery="lightbox-gallery-01-6" data-fancybox-type="iframe"></iframe>
+      <iframe class="hidden-xs-up" src="http://www.youtube.com/embed/IPFieiqsoHc?autoplay=1" data-fancybox-hidden-gallery="lightbox-gallery-01-6" data-fancybox-type="iframe"></iframe>
+    </div>
+    <!-- End Video Clip -->
+
+  </div>
+  <!-- End Gallery Content -->
+
+</div>
+<!-- End Candela Gallery Secction -->

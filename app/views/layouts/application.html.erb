@@ -76,6 +76,18 @@
 
     // initialization of popups
     $.HSCore.components.HSPopup.init('.js-fancybox');
+
+    // initialization of popups with media
+    $.HSCore.components.HSPopup.init('.js-fancybox-media', {
+      helpers: {
+        media: {},
+        overlay: {
+          css: {
+            'background': 'rgba(255, 255, 255, .8)'
+          }
+        }
+      }
+    });
   });
 
   $(window).on('load', function() {
