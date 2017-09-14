@@ -1,10 +1,32 @@
-<header id="js-header" class="u-header u-header--sticky-top u-header--change-appearance u-header--change-logo"
-        data-header-fix-moment="0">
+<header id="js-header"
+        class="u-header u-header--sticky-top u-header--change-appearance u-header--change-logo"data-header-fix-moment="0">
   <div class="u-header__section g-transition-0_3 g-py-7 g-py-23--md"
        data-header-fix-moment-exclude="g-py-23--md"
        data-header-fix-moment-classes="u-shadow-v19 g-bg-white g-py-15--md">
-    <nav class="navbar navbar-toggleable-md g-py-0">
-      <div class="container">
+
+    <div class="container">
+      <div class="d-lg-flex flex-md-row align-items-center g-pos-rel">
+
+        <!-- Responsive Toggle Button -->
+        <button
+          class="navbar-toggler btn g-line-height-1 g-brd-none g-pa-0 g-mt-12 ml-auto"
+          type="button"
+          aria-label="Toggle navigation"
+          aria-expanded="false"
+          aria-controls="navBar"
+          data-toggle="collapse"
+          data-target="#navBar">
+          <span class="hamburger hamburger--slider">
+            <span class="hamburger-box">
+              <span
+                class="hamburger-inner g-bg-white"
+                data-header-fix-moment-classes="g-bg-black" data-header-fix-moment-exclude="g-bg-white">
+              </span>
+            </span>
+          </span>
+        </button>
+        <!-- End Responsive Toggle Button -->
+
         <!-- Logo -->
         <a href="#home-section" class="navbar-brand u-header__logo">
           <img class="u-header__logo-img u-header__logo-img--main g-width-90" src="<%= image_url 'logo.png' %>" alt="Logo candela">
@@ -12,52 +34,67 @@
         </a>
         <!-- End Logo -->
 
+        <div class="col g-mt-10 g-mt-0--lg g-px-0">
+          <div class="row flex-row align-items-start align-items-lg-center justify-content-lg-end text-uppercase g-font-weight-600 u-header--hidden-element g-color-gray-dark-v2 g-font-size-13 text-lg-right g-mt-minus-10 g-mb-20">
+            <div class="col-auto g-px-15 g-mt-10">
+              <i class="fa fa-phone g-font-size-14 g-mr-3"></i> 1 800 88 4411
+            </div>
+            <div class="col-auto g-px-15 g-mt-10">
+              <ul class="list-inline mb-0 g-mx-minus-3">
+                <li class="list-inline-item g-valign-middle g-mx-3">
+                  <a class="d-block u-icon-v3 u-icon-size--xs u-shadow-v17 g-rounded-50x g-bg-white g-color-gray-dark-v1 g-color-primary--hover g-text-underline--none--hover" href="#">
+                    <i class="fa fa-facebook"></i>
+                  </a>
+                </li>
+                <li class="list-inline-item g-valign-middle g-mx-3">
+                  <a class="d-block u-icon-v3 u-icon-size--xs u-shadow-v17 g-rounded-50x g-bg-white g-color-gray-dark-v1 g-color-primary--hover g-text-underline--none--hover" href="#">
+                    <i class="fa fa-twitter"></i>
+                  </a>
+                </li>
+                <li class="list-inline-item g-valign-middle g-mx-3">
+                  <a class="d-block u-icon-v3 u-icon-size--xs u-shadow-v17 g-rounded-50x g-bg-white g-color-gray-dark-v1 g-color-primary--hover g-text-underline--none--hover" href="#">
+                    <i class="fa fa-instagram"></i>
+                  </a>
+                </li>
+              </ul>
+            </div>
+          </div>
         <!-- Navigation -->
-        <div class="collapse navbar-collapse align-items-center flex-sm-row" id="navBar">
-          <ul id="js-scroll-nav" class="navbar-nav text-uppercase g-letter-spacing-1 g-font-size-12 g-pt-20 g-pt-0--lg ml-auto">
-            <li class="nav-item g-mr-15--lg g-mb-7 g-mb-0--lg">
-              <a href="#home-section" class="nav-link p-0">Inicio <span class="sr-only">(current)</span></a>
-            </li>
-            <li class="nav-item g-mx-15--lg g-mb-7 g-mb-0--lg">
-              <a href="#videos" class="nav-link p-0">Mi Candela</a>
-            </li>
-            <li class="nav-item g-mx-15--lg g-mb-7 g-mb-0--lg">
-              <a href="#portfolio-section" class="nav-link p-0">Mis Fotos</a>
-            </li>
-            <li class="nav-item g-mx-15--lg g-mb-7 g-mb-0--lg">
-              <a href="#about-section" class="nav-link p-0">Mi Historia</a>
-            </li>
-            <li class="nav-item g-mx-15--lg g-mb-7 g-mb-0--lg">
-              <a href="#services-section" class="nav-link p-0">Mi Show</a>
-            </li>
-            <li class="nav-item g-mx-15--lg g-mb-7 g-mb-0--lg">
-              <a href="#actress-section" class="nav-link p-0">La Actriz</a>
-            </li>
-            <li class="nav-item g-mx-15--lg g-mb-7 g-mb-0--lg">
-              <a href="#contact-section" class="nav-link p-0">Contacto</a>
-            </li>
-            <!-- <li class="nav-item g-ml-15--lg">
-              <a href="../../index.html" class="nav-link p-0">Main</a>
-            </li> -->
-          </ul>
-        </div>
+          <nav class="navbar navbar-toggleable-md g-py-0">
+            <div class="collapse navbar-collapse align-items-center flex-sm-row" id="navBar">
+              <ul id="js-scroll-nav" class="navbar-nav text-uppercase g-letter-spacing-1 g-font-size-12 g-pt-20 g-pt-0--lg ml-auto">
+                <li class="nav-item g-mr-15--lg g-mb-7 g-mb-0--lg">
+                  <a href="#home-section" class="nav-link p-0">Inicio <span class="sr-only">(current)</span></a>
+                </li>
+                <li class="nav-item g-mx-15--lg g-mb-7 g-mb-0--lg">
+                  <a href="#videos" class="nav-link p-0">Mi Candela</a>
+                </li>
+                <li class="nav-item g-mx-15--lg g-mb-7 g-mb-0--lg">
+                  <a href="#portfolio-section" class="nav-link p-0">Mis Fotos</a>
+                </li>
+                <li class="nav-item g-mx-15--lg g-mb-7 g-mb-0--lg">
+                  <a href="#about-section" class="nav-link p-0">Mi Historia</a>
+                </li>
+                <li class="nav-item g-mx-15--lg g-mb-7 g-mb-0--lg">
+                  <a href="#services-section" class="nav-link p-0">Mi Show</a>
+                </li>
+                <li class="nav-item g-mx-15--lg g-mb-7 g-mb-0--lg">
+                  <a href="#actress-section" class="nav-link p-0">La Actriz</a>
+                </li>
+                <li class="nav-item g-mx-15--lg g-mb-7 g-mb-0--lg">
+                  <a href="#contact-section" class="nav-link p-0">Contacto</a>
+                </li>
+
+                <!-- <li class="nav-item g-ml-15--lg">
+                  <a href="../../index.html" class="nav-link p-0">Main</a>
+                </li> -->
+              </ul>
+            </div>
+          </nav>
         <!-- End Navigation -->
 
-        <!-- Responsive Toggle Button -->
-        <button class="navbar-toggler btn g-line-height-1 g-brd-none g-pa-0 g-mt-12 ml-auto" type="button"
-                aria-label="Toggle navigation"
-                aria-expanded="false"
-                aria-controls="navBar"
-                data-toggle="collapse"
-                data-target="#navBar">
-          <span class="hamburger hamburger--slider">
-            <span class="hamburger-box">
-              <span class="hamburger-inner g-bg-white" data-header-fix-moment-classes="g-bg-black" data-header-fix-moment-exclude="g-bg-white"></span>
-            </span>
-          </span>
-        </button>
-        <!-- End Responsive Toggle Button -->
+        </div>
       </div>
-    </nav>
+    </div>
   </div>
 </header>
