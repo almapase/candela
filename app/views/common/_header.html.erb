@@ -1,5 +1,6 @@
 <header id="js-header"
-        class="u-header u-header--sticky-top u-header--change-appearance u-header--change-logo"data-header-fix-moment="0">
+        class="u-header u-header--sticky-top u-header--change-appearance u-header--change-logo"
+        data-header-fix-moment="0">
   <div class="u-header__section g-transition-0_3 g-py-7 g-py-23--md"
        data-header-fix-moment-exclude="g-py-23--md"
        data-header-fix-moment-classes="u-shadow-v19 g-bg-white g-py-15--md">
@@ -9,7 +10,7 @@
 
         <!-- Responsive Toggle Button -->
         <button
-          class="navbar-toggler btn g-line-height-1 g-brd-none g-pa-0 g-mt-12 ml-auto"
+          class="navbar-toggler navbar-toggler-right btn hidden-lg-up g-line-height-1 g-brd-none g-pa-0 g-pos-abs g-right-0"
           type="button"
           aria-label="Toggle navigation"
           aria-expanded="false"
@@ -30,30 +31,42 @@
         <!-- Logo -->
         <a href="#home-section" class="navbar-brand u-header__logo">
           <img class="u-header__logo-img u-header__logo-img--main g-width-90" src="<%= image_url 'logo.png' %>" alt="Logo candela">
-          <img class="u-header__logo-img g-width-90" src="<%= image_url 'logo-dark.png' %>" alt="Logo candela">
+          <img class="u-header__logo-img g-width-90" src="<%= image_url 'logo-dark.png' %>" alt="Logo candelashowoman">
         </a>
         <!-- End Logo -->
 
         <div class="col g-mt-10 g-mt-0--lg g-px-0">
-          <div class="row flex-row align-items-start align-items-lg-center justify-content-lg-end text-uppercase g-font-weight-600 u-header--hidden-element g-color-gray-dark-v2 g-font-size-13 text-lg-right g-mt-minus-10 g-mb-20">
+          <div
+            class="row flex-row align-items-start align-items-lg-center justify-content-lg-end text-uppercase g-font-weight-600 u-header--hidden-element g-font-size-13 text-lg-right g-mt-minus-10 g-mb-20 g-color-white"
+            data-header-fix-moment-classes="g-color-black"
+            data-header-fix-moment-exclude="g-color-white">
+
             <div class="col-auto g-px-15 g-mt-10">
-              <i class="fa fa-phone g-font-size-14 g-mr-3"></i> 1 800 88 4411
+              <i class="fa fa-phone g-font-size-14 g-mr-3"></i> +56 9 6210 4980
+            </div>
+            <div class="col-auto g-px-15 g-mt-10 text-lowercase">
+              <i class="fa fa-envelope g-font-size-14 g-mr-3"></i> candela@candelashowoman.cl
             </div>
             <div class="col-auto g-px-15 g-mt-10">
               <ul class="list-inline mb-0 g-mx-minus-3">
                 <li class="list-inline-item g-valign-middle g-mx-3">
-                  <a class="d-block u-icon-v3 u-icon-size--xs u-shadow-v17 g-rounded-50x g-bg-white g-color-gray-dark-v1 g-color-primary--hover g-text-underline--none--hover" href="#">
+                  <a class="d-block u-icon-v3 u-icon-size--xs u-shadow-v17 g-rounded-50x g-bg-white g-color-gray-dark-v1 g-color-primary--hover g-text-underline--none--hover" target="_blank" href="https://www.facebook.com/carlitacandelashowoman/">
                     <i class="fa fa-facebook"></i>
                   </a>
                 </li>
                 <li class="list-inline-item g-valign-middle g-mx-3">
-                  <a class="d-block u-icon-v3 u-icon-size--xs u-shadow-v17 g-rounded-50x g-bg-white g-color-gray-dark-v1 g-color-primary--hover g-text-underline--none--hover" href="#">
+                  <a class="d-block u-icon-v3 u-icon-size--xs u-shadow-v17 g-rounded-50x g-bg-white g-color-gray-dark-v1 g-color-primary--hover g-text-underline--none--hover" target="_blank" href="https://twitter.com/CandelaShowoman">
                     <i class="fa fa-twitter"></i>
                   </a>
                 </li>
                 <li class="list-inline-item g-valign-middle g-mx-3">
-                  <a class="d-block u-icon-v3 u-icon-size--xs u-shadow-v17 g-rounded-50x g-bg-white g-color-gray-dark-v1 g-color-primary--hover g-text-underline--none--hover" href="#">
+                  <a class="d-block u-icon-v3 u-icon-size--xs u-shadow-v17 g-rounded-50x g-bg-white g-color-gray-dark-v1 g-color-primary--hover g-text-underline--none--hover" target="_blank" href="https://www.instagram.com/candelashowoman/">
                     <i class="fa fa-instagram"></i>
+                  </a>
+                </li>
+                <li class="list-inline-item g-valign-middle g-mx-3">
+                  <a class="d-block u-icon-v3 u-icon-size--xs u-shadow-v17 g-rounded-50x g-bg-white g-color-gray-dark-v1 g-color-primary--hover g-text-underline--none--hover" target="_blank" href="https://www.youtube.com/channel/UC7wOqRMHMVAYlL62Cltgjzw">
+                    <i class="fa fa-youtube"></i>
                   </a>
                 </li>
               </ul>
@@ -84,10 +97,6 @@
                 <li class="nav-item g-mx-15--lg g-mb-7 g-mb-0--lg">
                   <a href="#contact-section" class="nav-link p-0">Contacto</a>
                 </li>
-
-                <!-- <li class="nav-item g-ml-15--lg">
-                  <a href="../../index.html" class="nav-link p-0">Main</a>
-                </li> -->
               </ul>
             </div>
           </nav>
