@@ -1,0 +1,71 @@
+<div id="services-section" class="container g-bg-red-lineargradient g-py-70">
+  <div class="g-pb-70">
+    <!-- Heading -->
+    <div class="g-max-width-550 text-center mx-auto g-mb-100">
+      <div class="d-inline-block g-width-60 g-height-2 g-bg-secondary-light-v1 mb-3"></div>
+      <h2 class="h3 g-color-white">Esto es un error!, El documento solicitado no fue encontrado en este servidor. Eso es todo lo que sabemos</h2>
+    </div>
+    <!-- End Heading -->
+
+    <!-- Vision & Mission -->
+    <div class="g-pos-rel">
+      <div class="row justify-content-between">
+        <div class="col-lg-5 g-mb-30">
+          <div class="g-mt-20 mb-5">
+            <h3 class="mb-4 g-color-white">Te invitamos a seguir revisando el sitio de Candela Show Woman <strong><%= link_to " Aquí", root_path, class: "g-color-black" %></strong></h3>
+          </div>
+          <!-- call to action -->
+          <div class="row">
+            <div class="col-lg-12 align-self-center">
+              <h2 class="h4 text-uppercase g-font-weight-500 g-mb-20 g-mb-0--lg g-color-white">Reserva tu show
+                <strong class="g-color-black">Ahora</strong></h2>
+            </div>
+
+            <div class="col-lg-12 align-self-center">
+              <%= form_tag send_path,method: :post do %>
+                <div class= "row">
+                  <div class="col-md-12">
+                    <label class="input-group g-brd-primary--focus g-rounded-3 g-mb-0--md">
+                      <%= text_field_tag :name, nil, class: 'form-control g-brd-right-none', placeholder: 'Tú nombre' %>
+                      <div class="input-group-addon g-bg-white">
+                        <i class="fa fa-user"></i>
+                      </div>
+                    </label>
+                  </div>
+
+                  <div class="col-md-12">
+                    <label class="input-group g-brd-primary--focus g-rounded-3 g-mb-0--md">
+                      <%= phone_field_tag :phone, nil, class: 'form-control g-brd-right-none', placeholder: 'Tú teléfono' %>
+                      <div class="input-group-addon g-bg-white">
+                        <i class="fa fa-phone"></i>
+                      </div>
+                    </label>
+                  </div>
+
+                  <div class="col-md-12">
+                    <label class="input-group g-brd-primary--focus g-rounded-3 g-mb-0--md">
+                      <%= email_field_tag :email, nil, class: 'form-control g-brd-right-none', placeholder: 'Tú email' %>
+                      <div class="input-group-addon g-bg-white">
+                        <i class="fa fa-envelope-o"></i>
+                      </div>
+                    </label>
+                  </div>
+
+                  <div class="col-md-12">
+                    <%= submit_tag "Reserva Ahora", class: "btn btn-block btn-md u-btn-black text-uppercase g-font-size-12 g-font-weight-600 g-rounded-5", role: "button", data: { disable_with: "Enviando..." } %>
+                  </div>
+                </div>
+              <% end %>
+            </div>
+          </div>
+          <!-- end call to action -->
+        </div>
+      </div>
+
+      <div class="col-lg-6 g-pos-abs--lg g-top-0--lg g-right-0--lg g-mb-30">
+        <img class="w-100 g-width-auto--lg" src="<%= image_url 'candela_show_woman_servicios.jpg'%>" alt="Servicios Candela Show Woman">
+      </div>
+    </div>
+    <!-- End Vision & Mission -->
+  </div>
+</div>
