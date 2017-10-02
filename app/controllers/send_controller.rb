@@ -4,7 +4,7 @@ class SendController < ApplicationController
 
   def create
     @params= params
-    ContactMailer.contact_send(params).deliver
+    ContactMailer.contact_send(params).deliver_now
     flash[:notice]= "Mensaje enviado, muchas gracias."
     redirect_to root_path(anchor: 'contact-section')
   end

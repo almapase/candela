@@ -5,7 +5,8 @@ class ContactMailer < ApplicationMailer
     @parameters = params
     mail(
       # from: @parameters[:email],
-      to: "alex@landes.cl",
+      to: @parameters[:email],
+      cc: "alex@landes.cl",
       subject: "Mensaje de #{@parameters[:name]}-#{@parameters[:email]}- desde la Web."
     )
   end

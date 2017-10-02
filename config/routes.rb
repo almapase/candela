@@ -58,4 +58,50 @@ Rails.application.routes.draw do
   #     # (app/controllers/admin/products_controller.rb)
   #     resources :products
   #   end
+
+  # Rutas originales
+  # http://candelashowoman.cl/home.html
+  # http://candelashowoman.cl/biografia.html
+  # http://candelashowoman.cl/galeria.html
+  # http://candelashowoman.cl/television.html
+  # http://candelashowoman.cl/videoclip.html
+  # http://candelashowoman.cl/contacto.html
+  # http://candelashowoman.cl/galeria/images/album1/01.jpg
+  # http://candelashowoman.cl/galeria/images/album1/02.jpg
+  # http://candelashowoman.cl/galeria/images/album1/03.jpg
+  # http://candelashowoman.cl/galeria/images/album1/04.jpg
+  # http://candelashowoman.cl/galeria/images/album1/05.jpg
+  # http://candelashowoman.cl/galeria/images/album1/06.jpg
+  # http://candelashowoman.cl/galeria/images/album1/07.jpg
+  # http://candelashowoman.cl/galeria/images/album1/08.jpg
+  # http://candelashowoman.cl/galeria/images/album1/09.jpg
+  # http://candelashowoman.cl/galeria/images/album1/10.jpg
+  # http://candelashowoman.cl/galeria/images/album1/11.jpg
+  # http://candelashowoman.cl/galeria/images/album1/12.jpg
+  # http://candelashowoman.cl/galeria/images/album1/14.jpg
+  # http://candelashowoman.cl/galeria/images/album1/15.jpg
+  # http://candelashowoman.cl/galeria/images/album1/16.jpg
+  # http://candelashowoman.cl/galeria/images/album1/17.jpg
+  # http://candelashowoman.cl/galeria/images/album1/18.jpg
+  # http://candelashowoman.cl/galeria/images/album1/19.jpg
+  # http://candelashowoman.cl/galeria/images/album1/20.jpg
+  # http://candelashowoman.cl/galeria/images/album1/21.jpg
+  # http://candelashowoman.cl/galeria/images/album1/22.jpg
+  # http://candelashowoman.cl/galeria/images/album2/01.jpg
+  # http://candelashowoman.cl/galeria/images/album2/02.jpg
+  # http://candelashowoman.cl/galeria/images/album2/03.jpg
+  # http://candelashowoman.cl/galeria/images/album2/04.jpg
+  # http://candelashowoman.cl/galeria/images/album2/05.jpg
+  # http://candelashowoman.cl/galeria/images/album2/06.jpg
+  # http://candelashowoman.cl/galeria/images/album2/07.jpg
+  # http://candelashowoman.cl/galeria/images/album2/08.jpg
+  # http://candelashowoman.cl/images/01.jpg
+  # http://candelashowoman.cl/images/02.jpg
+  # http://candelashowoman.cl/images/03.jpg
+  # http://candelashowoman.cl/images/04.jpg
+  # http://candelashowoman.cl/images/05.jpg
+
+
+
+
 end
